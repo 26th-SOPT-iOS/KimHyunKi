@@ -1,9 +1,8 @@
 # KimHyunKi
-김현기
+26기 OUR SOPT 김현기
 
 ***
 
-=======
 ## Week1(4/18)
 
 
