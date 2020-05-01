@@ -15,4 +15,4 @@
 1. 계산기 오토 레이아웃
 2. 스택 뷰를 활용한 스크롤 뷰 화면 구현하기 
 
-[2주차 과제 공부 작성](https://github.com/26th-SOPT-iOS/KimHyunKi/blob/master/Week2/%EB%AC%B4%EC%A0%9C.md)
+  [2주차 과제 공부 작성중](https://github.com/26th-SOPT-iOS/KimHyunKi/blob/master/Week2/%EB%AC%B4%EC%A0%9C.md)
