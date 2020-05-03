@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A2C725E245D814D00ABBE67 /* StretchHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C725D245D814D00ABBE67 /* StretchHeaderViewController.swift */; };
 		0A47D70E24594F18003F059F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A47D70D24594F18003F059F /* SignUpViewController.swift */; };
 		0A47D71124596686003F059F /* KoPubWorld Dotum_Pro Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0A47D7102459667E003F059F /* KoPubWorld Dotum_Pro Medium.otf */; };
 		0AA4A69424581F8C00F56B4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA4A69324581F8C00F56B4C /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A2C725D245D814D00ABBE67 /* StretchHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchHeaderViewController.swift; sourceTree = "<group>"; };
 		0A47D70D24594F18003F059F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		0A47D7102459667E003F059F /* KoPubWorld Dotum_Pro Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "KoPubWorld Dotum_Pro Medium.otf"; path = "../../../KOPUBWORLD_OTF_FONTS/KoPubWorld Dotum_Pro Medium.otf"; sourceTree = "<group>"; };
 		0AA4A69024581F8C00F56B4C /* iOS_SecondWeek_Assignment_Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_SecondWeek_Assignment_Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +82,7 @@
 				0AA4A6A124581F9000F56B4C /* Info.plist */,
 				0A47D70D24594F18003F059F /* SignUpViewController.swift */,
 				0AF1E78A245BFA7E0034C8BC /* ScrollViewController.swift */,
+				0A2C725D245D814D00ABBE67 /* StretchHeaderViewController.swift */,
 			);
 			path = iOS_SecondWeek_Assignment_Login;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				0AA4A69824581F8C00F56B4C /* ViewController.swift in Sources */,
 				0AA4A69424581F8C00F56B4C /* AppDelegate.swift in Sources */,
 				0AF1E78B245BFA7E0034C8BC /* ScrollViewController.swift in Sources */,
+				0A2C725E245D814D00ABBE67 /* StretchHeaderViewController.swift in Sources */,
 				0A47D70E24594F18003F059F /* SignUpViewController.swift in Sources */,
 				0AA4A69624581F8C00F56B4C /* SceneDelegate.swift in Sources */,
 			);
