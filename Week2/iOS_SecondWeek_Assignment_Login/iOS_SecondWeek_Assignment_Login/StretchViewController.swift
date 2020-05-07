@@ -1,17 +1,15 @@
 //
-//  ScrollViewController.swift
+//  StretchViewController.swift
 //  iOS_SecondWeek_Assignment_Login
 //
-//  Created by 김현기 on 2020/05/06.
+//  Created by 김현기 on 2020/05/07.
 //  Copyright © 2020 HyunKi Kim. All rights reserved.
 //
 
 import UIKit
 
-class ScrollViewController: UIViewController {
+class StretchViewController: UIViewController {
     @IBOutlet var imgViewHeightLayout: NSLayoutConstraint!
-    
-    @IBOutlet var parallaxImgView: UIImageView!
     
     @IBOutlet var scrollView: UIScrollView!
     
@@ -20,14 +18,18 @@ class ScrollViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         scrollView.delegate = self
         scrollView.contentInsetAdjustmentBehavior = .never
+       
     }
     
+   
 
+    
 }
-extension ScrollViewController: UIScrollViewDelegate {
+
+extension StretchViewController: UIScrollViewDelegate {
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         if scrollView.contentOffset.y < 0.0 {
             // Scrolling down: Scale

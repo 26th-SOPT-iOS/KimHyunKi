@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A16663F2461DC1800D21990 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A16663E2461DC1800D21990 /* ScrollViewController.swift */; };
+		0A1666412462C30500D21990 /* WowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1666402462C30500D21990 /* WowViewController.swift */; };
+		0A1666432463D03300D21990 /* aaaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1666422463D03300D21990 /* aaaViewController.swift */; };
+		0A1666452463DCD400D21990 /* StretchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1666442463DCD400D21990 /* StretchViewController.swift */; };
 		0A2C725E245D814D00ABBE67 /* StretchHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C725D245D814D00ABBE67 /* StretchHeaderViewController.swift */; };
 		0A47D70E24594F18003F059F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A47D70D24594F18003F059F /* SignUpViewController.swift */; };
 		0A47D71124596686003F059F /* KoPubWorld Dotum_Pro Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0A47D7102459667E003F059F /* KoPubWorld Dotum_Pro Medium.otf */; };
@@ -16,10 +20,13 @@
 		0AA4A69B24581F8C00F56B4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA4A69924581F8C00F56B4C /* Main.storyboard */; };
 		0AA4A69D24581F9000F56B4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AA4A69C24581F9000F56B4C /* Assets.xcassets */; };
 		0AA4A6A024581F9000F56B4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA4A69E24581F9000F56B4C /* LaunchScreen.storyboard */; };
-		0AF1E78B245BFA7E0034C8BC /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF1E78A245BFA7E0034C8BC /* ScrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A16663E2461DC1800D21990 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		0A1666402462C30500D21990 /* WowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WowViewController.swift; sourceTree = "<group>"; };
+		0A1666422463D03300D21990 /* aaaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aaaViewController.swift; sourceTree = "<group>"; };
+		0A1666442463DCD400D21990 /* StretchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchViewController.swift; sourceTree = "<group>"; };
 		0A2C725D245D814D00ABBE67 /* StretchHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchHeaderViewController.swift; sourceTree = "<group>"; };
 		0A47D70D24594F18003F059F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		0A47D7102459667E003F059F /* KoPubWorld Dotum_Pro Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "KoPubWorld Dotum_Pro Medium.otf"; path = "../../../KOPUBWORLD_OTF_FONTS/KoPubWorld Dotum_Pro Medium.otf"; sourceTree = "<group>"; };
@@ -31,7 +38,6 @@
 		0AA4A69C24581F9000F56B4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AA4A69F24581F9000F56B4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AA4A6A124581F9000F56B4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0AF1E78A245BFA7E0034C8BC /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +87,11 @@
 				0AA4A69E24581F9000F56B4C /* LaunchScreen.storyboard */,
 				0AA4A6A124581F9000F56B4C /* Info.plist */,
 				0A47D70D24594F18003F059F /* SignUpViewController.swift */,
-				0AF1E78A245BFA7E0034C8BC /* ScrollViewController.swift */,
 				0A2C725D245D814D00ABBE67 /* StretchHeaderViewController.swift */,
+				0A16663E2461DC1800D21990 /* ScrollViewController.swift */,
+				0A1666402462C30500D21990 /* WowViewController.swift */,
+				0A1666422463D03300D21990 /* aaaViewController.swift */,
+				0A1666442463DCD400D21990 /* StretchViewController.swift */,
 			);
 			path = iOS_SecondWeek_Assignment_Login;
 			sourceTree = "<group>";
@@ -160,9 +169,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AA4A69824581F8C00F56B4C /* ViewController.swift in Sources */,
+				0A16663F2461DC1800D21990 /* ScrollViewController.swift in Sources */,
 				0AA4A69424581F8C00F56B4C /* AppDelegate.swift in Sources */,
-				0AF1E78B245BFA7E0034C8BC /* ScrollViewController.swift in Sources */,
 				0A2C725E245D814D00ABBE67 /* StretchHeaderViewController.swift in Sources */,
+				0A1666432463D03300D21990 /* aaaViewController.swift in Sources */,
+				0A1666452463DCD400D21990 /* StretchViewController.swift in Sources */,
+				0A1666412462C30500D21990 /* WowViewController.swift in Sources */,
 				0A47D70E24594F18003F059F /* SignUpViewController.swift in Sources */,
 				0AA4A69624581F8C00F56B4C /* SceneDelegate.swift in Sources */,
 			);

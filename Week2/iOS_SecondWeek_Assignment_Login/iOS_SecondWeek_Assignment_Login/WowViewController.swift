@@ -8,7 +8,8 @@
 
 import UIKit
 
-class ScrollViewController: UIViewController {
+class WowViewController: UIViewController {
+
     @IBOutlet var imgViewHeightLayout: NSLayoutConstraint!
     
     @IBOutlet var parallaxImgView: UIImageView!
@@ -27,7 +28,7 @@ class ScrollViewController: UIViewController {
     
 
 }
-extension ScrollViewController: UIScrollViewDelegate {
+extension WowViewController: UIScrollViewDelegate {
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         if scrollView.contentOffset.y < 0.0 {
             // Scrolling down: Scale
@@ -40,3 +41,6 @@ extension ScrollViewController: UIScrollViewDelegate {
         }
     }
 }
+
+
+
