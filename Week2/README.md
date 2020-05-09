@@ -8,7 +8,7 @@
 
 ### 구현 화면
 
-<video src="/Users/kimhyunki/Downloads/SOPT/KimHyunKi/markdown_image/화면 기록 2020-05-07 오후 3.13.01.mov" width ="375px" height = "500px"></video>            
+<video src="../markdown_image/화면 기록 2020-05-07 오후 3.13.01.mov" width ="375px" height = "500px"></video>            
 
 
 
@@ -22,7 +22,7 @@
 
 그리고 이미지 뷰를 넣기 전에 스크롤 뷰 선택후 
 
-<img src="/Users/kimhyunki/Downloads/SOPT/KimHyunKi/markdown_image/a.png" alt="스크린샷 2020-05-07 오후 3.55.02" style="zoom:50%;" align ="left"/>
+<img src="../markdown_image/a.png" alt="스크린샷 2020-05-07 오후 3.55.02" style="zoom:50%;" align ="left"/>
 
 
 
