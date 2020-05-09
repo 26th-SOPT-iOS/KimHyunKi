@@ -34,21 +34,21 @@ Content Insets 를 Never로 바꾼 후에 넣어주도록 해야한다. 나중�
 
 ❗️주의: 이미지 뷰 넣은 후에 Content Mode를 반드시 'Aspect Fill'로 변경한다❗️
 
-<img src="/Users/kimhyunki/Downloads/SOPT/KimHyunKi/markdown_image/스크린샷 2020-05-07 오후 4.10.05.png" alt="스크린샷 2020-05-07 오후 4.10.05" style="zoom:50%;" align ="left"/>
+<img src="../KimHyunKi/markdown_image/스크린샷 2020-05-07 오후 4.10.05.png" alt="스크린샷 2020-05-07 오후 4.10.05" style="zoom:50%;" align ="left"/>
 
 3. 그 후에 이미지 뷰 바로 아래에 새로운 UI View를 넣어주고 이 뷰를 스크롤 뷰 안에 맨 처음 넣어주었던 뷰에 다 연결시켜준다. Top:210 나머지는 모두 0,0,0
 
-<img src="/Users/kimhyunki/Downloads/SOPT/KimHyunKi/markdown_image/스크린샷 2020-05-07 오후 4.14.21.png" alt="스크린샷 2020-05-07 오후 4.14.21" style="zoom:50%;" align ="left" />
+<img src="../KimHyunKi/markdown_image/스크린샷 2020-05-07 오후 4.14.21.png" alt="스크린샷 2020-05-07 오후 4.14.21" style="zoom:50%;" align ="left" />
 
 
 
 4. 그 후에 스택뷰를 이미지 아래 방금 새로 만든 뷰에 넣어주고 넣어준 뷰에 32 28 28 23의 오토레이아웃을 준다.
 
-   <img src="/Users/kimhyunki/Downloads/SOPT/KimHyunKi/markdown_image/스크린샷 2020-05-07 오후 4.26.30.png" alt="스크린샷 2020-05-07 오후 4.26.30" style="zoom:50%;" align ="left" />
+   <img src="../KimHyunKi/markdown_image/스크린샷 2020-05-07 오후 4.26.30.png" alt="스크린샷 2020-05-07 오후 4.26.30" style="zoom:50%;" align ="left" />
 
 
 
-<img src="/Users/kimhyunki/Downloads/SOPT/KimHyunKi/markdown_image/스크린샷 2020-05-07 오후 4.26.39.png" alt="스크린샷 2020-05-07 오후 4.26.39" style="zoom:50%;" align = "left" />
+<img src="../KimHyunKi/markdown_image/스크린샷 2020-05-07 오후 4.26.39.png" alt="스크린샷 2020-05-07 오후 4.26.39" style="zoom:50%;" align = "left" />
 
 
 
