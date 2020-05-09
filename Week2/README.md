@@ -7,8 +7,7 @@
 ***
 
 ### 구현 화면
-
-<video src="../markdown_image/화면 기록 2020-05-07 오후 3.13.01.mov" width ="375px" height = "500px"></video>            
+         
 
 
 
@@ -22,7 +21,7 @@
 
 그리고 이미지 뷰를 넣기 전에 스크롤 뷰 선택후 
 
-<img src="https://user-images.githubusercontent.com/61139221/81463216-b69bd300-91f2-11ea-9cc3-1b98315732a7.png" style="zoom:50%;" align ="left"/>
+
 
 
 
@@ -34,21 +33,19 @@ Content Insets 를 Never로 바꾼 후에 넣어주도록 해야한다. 나중�
 
 ❗️주의: 이미지 뷰 넣은 후에 Content Mode를 반드시 'Aspect Fill'로 변경한다❗️
 
-<img src="https://user-images.githubusercontent.com/61139221/81463222-be5b7780-91f2-11ea-83a1-f0deaeb42ba7.png" alt="스크린샷 2020-05-07 오후 4.10.05" style="zoom:50%;" align ="left"/>
+
 
 3. 그 후에 이미지 뷰 바로 아래에 새로운 UI View를 넣어주고 이 뷰를 스크롤 뷰 안에 맨 처음 넣어주었던 뷰에 다 연결시켜준다. Top:210 나머지는 모두 0,0,0
 
-<img src="https://user-images.githubusercontent.com/61139221/81463225-c0bdd180-91f2-11ea-8911-6d49ecac69b4.png" alt="스크린샷 2020-05-07 오후 4.14.21" style="zoom:50%;" align ="left" />
 
 
 
 4. 그 후에 스택뷰를 이미지 아래 방금 새로 만든 뷰에 넣어주고 넣어준 뷰에 32 28 28 23의 오토레이아웃을 준다.
 
-   <img src="https://user-images.githubusercontent.com/61139221/81463226-c3b8c200-91f2-11ea-979e-d3bec03aa2a1.png" style="zoom:50%;" align ="left" />
+ 
 
 
 
-<img src="https://user-images.githubusercontent.com/61139221/81463227-c4e9ef00-91f2-11ea-9234-40debca76cc7.png" style="zoom:50%;" align = "left" />
 
 
 
