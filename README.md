@@ -5,9 +5,7 @@
 
 ## Week1(4/18)
 
-
-### Navigation Controller 이용해서 화면 전환하기
-
+1. Navigation Controller 이용해서 화면 전환하기
 
 ***
 
@@ -15,4 +13,12 @@
 1. 계산기 오토 레이아웃
 2. 스택 뷰를 활용한 스크롤 뷰 화면 구현하기 
 
-  [2주차 과제 공부 작성중](https://github.com/26th-SOPT-iOS/KimHyunKi/blob/master/Week2/%EB%AC%B4%EC%A0%9C.md)
+***
+
+## Week3(5/9)
+
+1. Picker View
+2. Table View
+
+
+
