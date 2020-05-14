@@ -7,19 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A19EF89246DBB750089C397 /* StretchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A19EF88246DBB750089C397 /* StretchViewController.swift */; };
 		0A39A0ED2468F8EF001D0096 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A39A0EC2468F8EF001D0096 /* AppDelegate.swift */; };
 		0A39A0EF2468F8EF001D0096 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A39A0EE2468F8EF001D0096 /* SceneDelegate.swift */; };
 		0A39A0F12468F8EF001D0096 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A39A0F02468F8EF001D0096 /* ViewController.swift */; };
 		0A39A0F42468F8EF001D0096 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A39A0F22468F8EF001D0096 /* Main.storyboard */; };
 		0A39A0F62468F8F3001D0096 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A39A0F52468F8F3001D0096 /* Assets.xcassets */; };
 		0A39A0F92468F8F3001D0096 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A39A0F72468F8F3001D0096 /* LaunchScreen.storyboard */; };
-		0A39A1012468FDD9001D0096 /* StretchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A39A1002468FDD9001D0096 /* StretchViewController.swift */; };
 		0A39A10324691C0E001D0096 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A39A10224691C0E001D0096 /* FriendViewController.swift */; };
 		0A813FC8246AE5EC005B0A1D /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A813FC7246AE5EC005B0A1D /* Friends.swift */; };
 		0A813FCA246AF884005B0A1D /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A813FC9246AF884005B0A1D /* FriendCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A19EF88246DBB750089C397 /* StretchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchViewController.swift; sourceTree = "<group>"; };
 		0A39A0E92468F8EF001D0096 /* iOS_ThirdWeek_Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_ThirdWeek_Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A39A0EC2468F8EF001D0096 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A39A0EE2468F8EF001D0096 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,7 +29,6 @@
 		0A39A0F52468F8F3001D0096 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A39A0F82468F8F3001D0096 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A39A0FA2468F8F3001D0096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0A39A1002468FDD9001D0096 /* StretchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StretchViewController.swift; path = ../../SOPT/KimHyunKi/Week2/iOS_SecondWeek_Assignment_Login/iOS_SecondWeek_Assignment_Login/StretchViewController.swift; sourceTree = "<group>"; };
 		0A39A10224691C0E001D0096 /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
 		0A813FC7246AE5EC005B0A1D /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
 		0A813FC9246AF884005B0A1D /* FriendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
@@ -67,7 +67,6 @@
 				0A39A0EC2468F8EF001D0096 /* AppDelegate.swift */,
 				0A39A0EE2468F8EF001D0096 /* SceneDelegate.swift */,
 				0A39A0F02468F8EF001D0096 /* ViewController.swift */,
-				0A39A1002468FDD9001D0096 /* StretchViewController.swift */,
 				0A39A0F22468F8EF001D0096 /* Main.storyboard */,
 				0A39A0F52468F8F3001D0096 /* Assets.xcassets */,
 				0A39A0F72468F8F3001D0096 /* LaunchScreen.storyboard */,
@@ -75,6 +74,7 @@
 				0A39A10224691C0E001D0096 /* FriendViewController.swift */,
 				0A813FC7246AE5EC005B0A1D /* Friends.swift */,
 				0A813FC9246AF884005B0A1D /* FriendCell.swift */,
+				0A19EF88246DBB750089C397 /* StretchViewController.swift */,
 			);
 			path = iOS_ThirdWeek_Assignment;
 			sourceTree = "<group>";
@@ -152,9 +152,9 @@
 			files = (
 				0A813FCA246AF884005B0A1D /* FriendCell.swift in Sources */,
 				0A39A0F12468F8EF001D0096 /* ViewController.swift in Sources */,
+				0A19EF89246DBB750089C397 /* StretchViewController.swift in Sources */,
 				0A813FC8246AE5EC005B0A1D /* Friends.swift in Sources */,
 				0A39A0ED2468F8EF001D0096 /* AppDelegate.swift in Sources */,
-				0A39A1012468FDD9001D0096 /* StretchViewController.swift in Sources */,
 				0A39A0EF2468F8EF001D0096 /* SceneDelegate.swift in Sources */,
 				0A39A10324691C0E001D0096 /* FriendViewController.swift in Sources */,
 			);

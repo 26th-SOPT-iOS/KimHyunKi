@@ -82,14 +82,22 @@ class FriendViewController: UIViewController {
         friendsProfile = [data1, data2, data3, data4, data5, data6, data7, data8, data9]
         
     }
+    
+    
+    //스와이프 투 딜리트
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
             
             if editingStyle == UITableViewCell.EditingStyle.delete{
                 friendsProfile.remove(at: indexPath.row) //데이터 삭제
                 tableView.deleteRows(at: [indexPath], with: UITableView.RowAnimation.automatic) //테이블에서 삭제
+                
+                
+                numberofFriendLabel.text = "\(friendsProfile.count)"
             }
         }
     
+    
+    //푸터 설정
     func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
         let footerView = UIView()
         
