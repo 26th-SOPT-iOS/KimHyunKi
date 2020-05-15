@@ -142,7 +142,7 @@
         <!--Item-->
         <scene sceneID="TfW-bJ-510">
             <objects>
-                <viewController id="XFZ-15-Lc8" customClass="StretchViewController" customModule="iOS_SecondWeek_Assignment_Login" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XFZ-15-Lc8" customClass="StretchViewController" customModule="iOS_ThirdWeek_Assignment" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WfW-BU-dxH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -479,7 +479,7 @@
                                                 </constraints>
                                             </view>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="oursoptBgImg" translatesAutoresizingMaskIntoConstraints="NO" id="0Vg-P1-xEj">
-                                                <rect key="frame" x="0.0" y="363" width="375" height="210"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="210"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="210" id="5Tg-DS-R4e"/>
                                                 </constraints>
@@ -524,7 +524,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vhi-OB-r8K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-11401" y="1383"/>
+            <point key="canvasLocation" x="-11010" y="1414"/>
         </scene>
     </scenes>
     <resources>

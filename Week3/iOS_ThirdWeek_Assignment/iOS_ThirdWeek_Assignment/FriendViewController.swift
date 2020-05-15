@@ -92,7 +92,7 @@ class FriendViewController: UIViewController {
                 tableView.deleteRows(at: [indexPath], with: UITableView.RowAnimation.automatic) //테이블에서 삭제
                 
                 
-                numberofFriendLabel.text = "\(friendsProfile.count)"
+                numberofFriendLabel.text = "친구 \(friendsProfile.count)"
             }
         }
     
@@ -100,9 +100,6 @@ class FriendViewController: UIViewController {
     //푸터 설정
     func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
         let footerView = UIView()
-        
-        let headerLabel = UILabel()
-        numberofFriendLabel = UILabel(frame: CGRect(x: 16, y: 186, width:tableView.bounds.size.width, height: 17))
         
         if section == 0 {
             let separatorView = UIView(frame: CGRect(x: tableView.separatorInset.left, y:
@@ -114,18 +111,15 @@ class FriendViewController: UIViewController {
             separatorView.backgroundColor = UIColor.lightGray
             footerView.addSubview(separatorView)
             
-            headerLabel.text = "친구 "
-            headerLabel.font = UIFont.systemFont(ofSize: 12)
-            headerLabel.frame = CGRect.init(x: 16, y:186, width: tableView.bounds.size.width, height: 17)
-            headerLabel.sizeToFit()
             
-            numberofFriendLabel.text = "\(friendsProfile.count)"
+           
+            numberofFriendLabel.frame = CGRect.init(x: 16, y: 9.5, width: tableView.bounds.size.width, height: 17)
+            numberofFriendLabel.textColor = UIColor.lightGray
+            numberofFriendLabel.text = "친구 \(friendsProfile.count)"
             numberofFriendLabel.font = UIFont.systemFont(ofSize: 12)
-            numberofFriendLabel.frame = CGRect.init(x: 40, y: 186, width: tableView.bounds.size.width, height: 17)
             numberofFriendLabel.sizeToFit()
             
-            view.addSubview(headerLabel)
-            view.addSubview(numberofFriendLabel)
+            footerView.addSubview(numberofFriendLabel)
             
         }
         
