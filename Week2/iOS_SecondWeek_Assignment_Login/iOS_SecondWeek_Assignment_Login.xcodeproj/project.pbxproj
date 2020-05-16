@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,10 @@
 		0A1666432463D03300D21990 /* aaaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1666422463D03300D21990 /* aaaViewController.swift */; };
 		0A1666452463DCD400D21990 /* StretchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1666442463DCD400D21990 /* StretchViewController.swift */; };
 		0A2C725E245D814D00ABBE67 /* StretchHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C725D245D814D00ABBE67 /* StretchHeaderViewController.swift */; };
+		0A41F0F5246FBD41001A45D2 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A41F0F4246FBD41001A45D2 /* APIConstants.swift */; };
+		0A41F0F8246FBE7C001A45D2 /* SigninData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A41F0F7246FBE7C001A45D2 /* SigninData.swift */; };
+		0A41F0FA246FC53D001A45D2 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A41F0F9246FC53D001A45D2 /* NetworkResult.swift */; };
+		0A41F0FC246FC5DB001A45D2 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A41F0FB246FC5DB001A45D2 /* LoginService.swift */; };
 		0A47D70E24594F18003F059F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A47D70D24594F18003F059F /* SignUpViewController.swift */; };
 		0A47D71124596686003F059F /* KoPubWorld Dotum_Pro Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0A47D7102459667E003F059F /* KoPubWorld Dotum_Pro Medium.otf */; };
 		0AA4A69424581F8C00F56B4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA4A69324581F8C00F56B4C /* AppDelegate.swift */; };
@@ -20,6 +24,7 @@
 		0AA4A69B24581F8C00F56B4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA4A69924581F8C00F56B4C /* Main.storyboard */; };
 		0AA4A69D24581F9000F56B4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AA4A69C24581F9000F56B4C /* Assets.xcassets */; };
 		0AA4A6A024581F9000F56B4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA4A69E24581F9000F56B4C /* LaunchScreen.storyboard */; };
+		B79C46E4D40C2E700A2AFCC1 /* Pods_iOS_SecondWeek_Assignment_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CB3732926B45B5C0EDBCA5 /* Pods_iOS_SecondWeek_Assignment_Login.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,10 @@
 		0A1666422463D03300D21990 /* aaaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aaaViewController.swift; sourceTree = "<group>"; };
 		0A1666442463DCD400D21990 /* StretchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchViewController.swift; sourceTree = "<group>"; };
 		0A2C725D245D814D00ABBE67 /* StretchHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchHeaderViewController.swift; sourceTree = "<group>"; };
+		0A41F0F4246FBD41001A45D2 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		0A41F0F7246FBE7C001A45D2 /* SigninData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninData.swift; sourceTree = "<group>"; };
+		0A41F0F9246FC53D001A45D2 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		0A41F0FB246FC5DB001A45D2 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 		0A47D70D24594F18003F059F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		0A47D7102459667E003F059F /* KoPubWorld Dotum_Pro Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "KoPubWorld Dotum_Pro Medium.otf"; path = "../../../KOPUBWORLD_OTF_FONTS/KoPubWorld Dotum_Pro Medium.otf"; sourceTree = "<group>"; };
 		0AA4A69024581F8C00F56B4C /* iOS_SecondWeek_Assignment_Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_SecondWeek_Assignment_Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +47,9 @@
 		0AA4A69C24581F9000F56B4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AA4A69F24581F9000F56B4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AA4A6A124581F9000F56B4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47C8B1C0DBF50066B65A092E /* Pods-iOS_SecondWeek_Assignment_Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_SecondWeek_Assignment_Login.release.xcconfig"; path = "Target Support Files/Pods-iOS_SecondWeek_Assignment_Login/Pods-iOS_SecondWeek_Assignment_Login.release.xcconfig"; sourceTree = "<group>"; };
+		79CB3732926B45B5C0EDBCA5 /* Pods_iOS_SecondWeek_Assignment_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_SecondWeek_Assignment_Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAABCAB0CC5D96F735B007F8 /* Pods-iOS_SecondWeek_Assignment_Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_SecondWeek_Assignment_Login.debug.xcconfig"; path = "Target Support Files/Pods-iOS_SecondWeek_Assignment_Login/Pods-iOS_SecondWeek_Assignment_Login.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,12 +57,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B79C46E4D40C2E700A2AFCC1 /* Pods_iOS_SecondWeek_Assignment_Login.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A41F0F0246FAD91001A45D2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0AA4A69924581F8C00F56B4C /* Main.storyboard */,
+				0AA4A69E24581F9000F56B4C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		0A41F0F1246FADA1001A45D2 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0A41F0F4246FBD41001A45D2 /* APIConstants.swift */,
+				0A41F0F7246FBE7C001A45D2 /* SigninData.swift */,
+				0A41F0F9246FC53D001A45D2 /* NetworkResult.swift */,
+				0A41F0FB246FC5DB001A45D2 /* LoginService.swift */,
+				0AA4A69C24581F9000F56B4C /* Assets.xcassets */,
+				0A41F0F0246FAD91001A45D2 /* Storyboards */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0A41F0F2246FADB1001A45D2 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0AA4A69324581F8C00F56B4C /* AppDelegate.swift */,
+				0AA4A69524581F8C00F56B4C /* SceneDelegate.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		0A41F0F3246FADB9001A45D2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0AA4A69724581F8C00F56B4C /* ViewController.swift */,
+				0A47D70D24594F18003F059F /* SignUpViewController.swift */,
+				0A2C725D245D814D00ABBE67 /* StretchHeaderViewController.swift */,
+				0A16663E2461DC1800D21990 /* ScrollViewController.swift */,
+				0A1666402462C30500D21990 /* WowViewController.swift */,
+				0A1666422463D03300D21990 /* aaaViewController.swift */,
+				0A1666442463DCD400D21990 /* StretchViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		0A47D70F2459666E003F059F /* fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -63,7 +121,10 @@
 			isa = PBXGroup;
 			children = (
 				0AA4A69224581F8C00F56B4C /* iOS_SecondWeek_Assignment_Login */,
+				0AA4A6A124581F9000F56B4C /* Info.plist */,
 				0AA4A69124581F8C00F56B4C /* Products */,
+				E0AA2CEDD7A7E2EA1D60CB66 /* Pods */,
+				8AB91CC36533D9C2FD949C13 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,22 +139,29 @@
 		0AA4A69224581F8C00F56B4C /* iOS_SecondWeek_Assignment_Login */ = {
 			isa = PBXGroup;
 			children = (
+				0A41F0F1246FADA1001A45D2 /* Resource */,
+				0A41F0F3246FADB9001A45D2 /* ViewController */,
+				0A41F0F2246FADB1001A45D2 /* Sources */,
 				0A47D70F2459666E003F059F /* fonts */,
-				0AA4A69324581F8C00F56B4C /* AppDelegate.swift */,
-				0AA4A69524581F8C00F56B4C /* SceneDelegate.swift */,
-				0AA4A69724581F8C00F56B4C /* ViewController.swift */,
-				0AA4A69924581F8C00F56B4C /* Main.storyboard */,
-				0AA4A69C24581F9000F56B4C /* Assets.xcassets */,
-				0AA4A69E24581F9000F56B4C /* LaunchScreen.storyboard */,
-				0AA4A6A124581F9000F56B4C /* Info.plist */,
-				0A47D70D24594F18003F059F /* SignUpViewController.swift */,
-				0A2C725D245D814D00ABBE67 /* StretchHeaderViewController.swift */,
-				0A16663E2461DC1800D21990 /* ScrollViewController.swift */,
-				0A1666402462C30500D21990 /* WowViewController.swift */,
-				0A1666422463D03300D21990 /* aaaViewController.swift */,
-				0A1666442463DCD400D21990 /* StretchViewController.swift */,
 			);
 			path = iOS_SecondWeek_Assignment_Login;
+			sourceTree = "<group>";
+		};
+		8AB91CC36533D9C2FD949C13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79CB3732926B45B5C0EDBCA5 /* Pods_iOS_SecondWeek_Assignment_Login.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0AA2CEDD7A7E2EA1D60CB66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAABCAB0CC5D96F735B007F8 /* Pods-iOS_SecondWeek_Assignment_Login.debug.xcconfig */,
+				47C8B1C0DBF50066B65A092E /* Pods-iOS_SecondWeek_Assignment_Login.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AA4A6A424581F9000F56B4C /* Build configuration list for PBXNativeTarget "iOS_SecondWeek_Assignment_Login" */;
 			buildPhases = (
+				5AFAF7EE0CAD8765A497047F /* [CP] Check Pods Manifest.lock */,
 				0AA4A68C24581F8C00F56B4C /* Sources */,
 				0AA4A68D24581F8C00F56B4C /* Frameworks */,
 				0AA4A68E24581F8C00F56B4C /* Resources */,
+				3F5FF0979147037D48FD54BB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,17 +233,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3F5FF0979147037D48FD54BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS_SecondWeek_Assignment_Login/Pods-iOS_SecondWeek_Assignment_Login-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS_SecondWeek_Assignment_Login/Pods-iOS_SecondWeek_Assignment_Login-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS_SecondWeek_Assignment_Login/Pods-iOS_SecondWeek_Assignment_Login-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AFAF7EE0CAD8765A497047F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS_SecondWeek_Assignment_Login-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0AA4A68C24581F8C00F56B4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0AA4A69824581F8C00F56B4C /* ViewController.swift in Sources */,
+				0A41F0FC246FC5DB001A45D2 /* LoginService.swift in Sources */,
 				0A16663F2461DC1800D21990 /* ScrollViewController.swift in Sources */,
 				0AA4A69424581F8C00F56B4C /* AppDelegate.swift in Sources */,
+				0A41F0FA246FC53D001A45D2 /* NetworkResult.swift in Sources */,
 				0A2C725E245D814D00ABBE67 /* StretchHeaderViewController.swift in Sources */,
 				0A1666432463D03300D21990 /* aaaViewController.swift in Sources */,
 				0A1666452463DCD400D21990 /* StretchViewController.swift in Sources */,
+				0A41F0F8246FBE7C001A45D2 /* SigninData.swift in Sources */,
+				0A41F0F5246FBD41001A45D2 /* APIConstants.swift in Sources */,
 				0A1666412462C30500D21990 /* WowViewController.swift in Sources */,
 				0A47D70E24594F18003F059F /* SignUpViewController.swift in Sources */,
 				0AA4A69624581F8C00F56B4C /* SceneDelegate.swift in Sources */,
@@ -318,6 +434,7 @@
 		};
 		0AA4A6A524581F9000F56B4C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAABCAB0CC5D96F735B007F8 /* Pods-iOS_SecondWeek_Assignment_Login.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -335,6 +452,7 @@
 		};
 		0AA4A6A624581F9000F56B4C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47C8B1C0DBF50066B65A092E /* Pods-iOS_SecondWeek_Assignment_Login.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
