@@ -21,6 +21,7 @@
 		0A41F12C246FDA64001A45D2 /* SigninData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A41F12B246FDA64001A45D2 /* SigninData.swift */; };
 		0A41F12E246FDA8E001A45D2 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A41F12D246FDA8E001A45D2 /* NetworkResult.swift */; };
 		0A41F130246FDAB2001A45D2 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A41F12F246FDAB2001A45D2 /* LoginService.swift */; };
+		0A7A7D192474319300D1E626 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A7D182474319300D1E626 /* SignupViewController.swift */; };
 		E6EC732656DE7E108AF8A730 /* Pods_iOS_4thWeek_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E457EA03AA877EF0922C4E53 /* Pods_iOS_4thWeek_Assignment.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		0A41F12B246FDA64001A45D2 /* SigninData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninData.swift; sourceTree = "<group>"; };
 		0A41F12D246FDA8E001A45D2 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
 		0A41F12F246FDAB2001A45D2 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		0A7A7D182474319300D1E626 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		1C0CCE845E5CDC294FFE1DF5 /* Pods-iOS_4thWeek_Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_4thWeek_Assignment.debug.xcconfig"; path = "Target Support Files/Pods-iOS_4thWeek_Assignment/Pods-iOS_4thWeek_Assignment.debug.xcconfig"; sourceTree = "<group>"; };
 		3669C2A4DFCA4C08EBD11CB2 /* Pods-iOS_4thWeek_Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_4thWeek_Assignment.release.xcconfig"; path = "Target Support Files/Pods-iOS_4thWeek_Assignment/Pods-iOS_4thWeek_Assignment.release.xcconfig"; sourceTree = "<group>"; };
 		E457EA03AA877EF0922C4E53 /* Pods_iOS_4thWeek_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_4thWeek_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +128,7 @@
 				0A41F125246FD595001A45D2 /* FriendCell.swift */,
 				0A41F121246FD503001A45D2 /* FriendViewController.swift */,
 				0A41F127246FD645001A45D2 /* StretchViewController.swift */,
+				0A7A7D182474319300D1E626 /* SignupViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				0A41F126246FD595001A45D2 /* FriendCell.swift in Sources */,
 				0A41F10E246FD3C0001A45D2 /* ViewController.swift in Sources */,
 				0A41F12A246FDA3F001A45D2 /* APIConstants.swift in Sources */,
+				0A7A7D192474319300D1E626 /* SignupViewController.swift in Sources */,
 				0A41F130246FDAB2001A45D2 /* LoginService.swift in Sources */,
 				0A41F10A246FD3C0001A45D2 /* AppDelegate.swift in Sources */,
 				0A41F124246FD545001A45D2 /* Friends.swift in Sources */,
