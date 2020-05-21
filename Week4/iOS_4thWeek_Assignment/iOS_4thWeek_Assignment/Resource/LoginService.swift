@@ -56,10 +56,11 @@ private func judge(by statusCode: Int, _ data: Data) -> NetworkResult<Any> {
 
     }
   
-//최종적으로 데이터 동신에 성공한 경우, JSON타입 디코딩을 실행 한 후 값을 화긴한다.
+//최종적으로 데이터 통신에 성공한 경우, JSON타입 디코딩을 실행 한 후 값을 확인한다.
+//가입된 유저인지 아닌지 판별
 private func isUser(by data: Data) -> NetworkResult<Any> {
     let decoder = JSONDecoder()
-    guard let decodedData = try? decoder.decode(SigininData.self, from: data) else { return .pathErr }
+    guard let decodedData = try? decoder.decode(SigninData.self, from: data) else { return .pathErr }
     guard let tokenData = decodedData.data else { return .requestErr(decodedData.message) }
     return .success(tokenData.jwt)
     }
