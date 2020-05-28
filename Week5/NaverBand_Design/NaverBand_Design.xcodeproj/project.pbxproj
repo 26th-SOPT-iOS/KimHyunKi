@@ -22,6 +22,14 @@
 		0A6293C0247FCDAA0060C596 /* NotoSansCJKkr-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6293BA247FC2E50060C596 /* NotoSansCJKkr-Regular.otf */; };
 		0A6293C2247FD1080060C596 /* NewTableInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6293C1247FD1080060C596 /* NewTableInformation.swift */; };
 		0A6293C4247FDB0D0060C596 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6293C3247FDB0D0060C596 /* TabBarViewController.swift */; };
+		0A6293C6247FDE6E0060C596 /* New.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A6293C5247FDE6E0060C596 /* New.storyboard */; };
+		0A6293C8247FDE900060C596 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6293C7247FDE900060C596 /* NewViewController.swift */; };
+		0A6293CA247FE0510060C596 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A6293C9247FE0510060C596 /* Search.storyboard */; };
+		0A6293CC247FE0CF0060C596 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6293CB247FE0CF0060C596 /* SearchViewController.swift */; };
+		0A6293CE247FE1BA0060C596 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A6293CD247FE1BA0060C596 /* Home.storyboard */; };
+		0A6293D0247FE1CC0060C596 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A6293CF247FE1CC0060C596 /* Chat.storyboard */; };
+		0A6293D2247FE2030060C596 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6293D1247FE2030060C596 /* HomeViewController.swift */; };
+		0A6293D4247FE2120060C596 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6293D3247FE2120060C596 /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +50,14 @@
 		0A6293BB247FCAE80060C596 /* NewTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTableCell.swift; sourceTree = "<group>"; };
 		0A6293C1247FD1080060C596 /* NewTableInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTableInformation.swift; sourceTree = "<group>"; };
 		0A6293C3247FDB0D0060C596 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		0A6293C5247FDE6E0060C596 /* New.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = New.storyboard; sourceTree = "<group>"; };
+		0A6293C7247FDE900060C596 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		0A6293C9247FE0510060C596 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		0A6293CB247FE0CF0060C596 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		0A6293CD247FE1BA0060C596 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		0A6293CF247FE1CC0060C596 /* Chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
+		0A6293D1247FE2030060C596 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0A6293D3247FE2120060C596 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +101,11 @@
 		0A6293AA247FB5440060C596 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				0A629399247FB4CB0060C596 /* ViewController.swift */,
+				0A6293C3247FDB0D0060C596 /* TabBarViewController.swift */,
+				0A6293C7247FDE900060C596 /* NewViewController.swift */,
+				0A6293D1247FE2030060C596 /* HomeViewController.swift */,
+				0A6293D3247FE2120060C596 /* ChatViewController.swift */,
 				0A6293AB247FB5550060C596 /* MyPage */,
 				0A6293AC247FB55E0060C596 /* Search */,
 			);
@@ -104,8 +125,7 @@
 		0A6293AC247FB55E0060C596 /* Search */ = {
 			isa = PBXGroup;
 			children = (
-				0A629399247FB4CB0060C596 /* ViewController.swift */,
-				0A6293C3247FDB0D0060C596 /* TabBarViewController.swift */,
+				0A6293CB247FE0CF0060C596 /* SearchViewController.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -153,6 +173,10 @@
 				0A62939B247FB4CB0060C596 /* Main.storyboard */,
 				0A6293A0247FB4D00060C596 /* LaunchScreen.storyboard */,
 				0A6293B3247FB7280060C596 /* MyPage.storyboard */,
+				0A6293C5247FDE6E0060C596 /* New.storyboard */,
+				0A6293C9247FE0510060C596 /* Search.storyboard */,
+				0A6293CD247FE1BA0060C596 /* Home.storyboard */,
+				0A6293CF247FE1CC0060C596 /* Chat.storyboard */,
 				0A62939E247FB4D00060C596 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -217,10 +241,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A6293A2247FB4D00060C596 /* LaunchScreen.storyboard in Resources */,
+				0A6293CE247FE1BA0060C596 /* Home.storyboard in Resources */,
 				0A6293C0247FCDAA0060C596 /* NotoSansCJKkr-Regular.otf in Resources */,
 				0A6293BF247FCDA80060C596 /* NotoSansCJKkr-Medium.otf in Resources */,
 				0A6293BD247FCDA20060C596 /* NotoSansCJKkr-Bold.otf in Resources */,
+				0A6293CA247FE0510060C596 /* Search.storyboard in Resources */,
+				0A6293D0247FE1CC0060C596 /* Chat.storyboard in Resources */,
 				0A6293BE247FCDA50060C596 /* NotoSansCJKkr-DemiLight.otf in Resources */,
+				0A6293C6247FDE6E0060C596 /* New.storyboard in Resources */,
 				0A62939F247FB4D00060C596 /* Assets.xcassets in Resources */,
 				0A62939D247FB4CB0060C596 /* Main.storyboard in Resources */,
 				0A6293B4247FB7280060C596 /* MyPage.storyboard in Resources */,
@@ -236,7 +264,11 @@
 			files = (
 				0A6293C2247FD1080060C596 /* NewTableInformation.swift in Sources */,
 				0A62939A247FB4CB0060C596 /* ViewController.swift in Sources */,
+				0A6293D4247FE2120060C596 /* ChatViewController.swift in Sources */,
 				0A629396247FB4CB0060C596 /* AppDelegate.swift in Sources */,
+				0A6293CC247FE0CF0060C596 /* SearchViewController.swift in Sources */,
+				0A6293C8247FDE900060C596 /* NewViewController.swift in Sources */,
+				0A6293D2247FE2030060C596 /* HomeViewController.swift in Sources */,
 				0A629398247FB4CB0060C596 /* SceneDelegate.swift in Sources */,
 				0A6293C4247FDB0D0060C596 /* TabBarViewController.swift in Sources */,
 				0A6293B6247FB7970060C596 /* MyPageViewController.swift in Sources */,
