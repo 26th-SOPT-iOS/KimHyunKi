@@ -30,6 +30,13 @@
 		0A6293D0247FE1CC0060C596 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A6293CF247FE1CC0060C596 /* Chat.storyboard */; };
 		0A6293D2247FE2030060C596 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6293D1247FE2030060C596 /* HomeViewController.swift */; };
 		0A6293D4247FE2120060C596 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6293D3247FE2120060C596 /* ChatViewController.swift */; };
+		0A6293D6248100D40060C596 /* NewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6293D5248100D40060C596 /* NewCell.swift */; };
+		0A6293D8248105BA0060C596 /* New.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6293D7248105BA0060C596 /* New.swift */; };
+		0A6293DA248110830060C596 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6293D9248110830060C596 /* Page.swift */; };
+		0A6293DC248111580060C596 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6293DB248111580060C596 /* PageCell.swift */; };
+		0A6293DE248124730060C596 /* Band.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6293DD248124730060C596 /* Band.swift */; };
+		0A6293E0248124AC0060C596 /* BandCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6293DF248124AC0060C596 /* BandCell.swift */; };
+		0A6293E22481263A0060C596 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6293E12481263A0060C596 /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +65,13 @@
 		0A6293CF247FE1CC0060C596 /* Chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
 		0A6293D1247FE2030060C596 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0A6293D3247FE2120060C596 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		0A6293D5248100D40060C596 /* NewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCell.swift; sourceTree = "<group>"; };
+		0A6293D7248105BA0060C596 /* New.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New.swift; sourceTree = "<group>"; };
+		0A6293D9248110830060C596 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		0A6293DB248111580060C596 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		0A6293DD248124730060C596 /* Band.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Band.swift; sourceTree = "<group>"; };
+		0A6293DF248124AC0060C596 /* BandCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandCell.swift; sourceTree = "<group>"; };
+		0A6293E12481263A0060C596 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +140,9 @@
 			isa = PBXGroup;
 			children = (
 				0A6293CB247FE0CF0060C596 /* SearchViewController.swift */,
+				0A6293D5248100D40060C596 /* NewCell.swift */,
+				0A6293DB248111580060C596 /* PageCell.swift */,
+				0A6293DF248124AC0060C596 /* BandCell.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -145,6 +162,9 @@
 		0A6293AE247FB5A40060C596 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0A6293D7248105BA0060C596 /* New.swift */,
+				0A6293D9248110830060C596 /* Page.swift */,
+				0A6293DD248124730060C596 /* Band.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -163,6 +183,7 @@
 		0A6293B0247FB5BD0060C596 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				0A6293E12481263A0060C596 /* UIColor.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -266,12 +287,19 @@
 				0A62939A247FB4CB0060C596 /* ViewController.swift in Sources */,
 				0A6293D4247FE2120060C596 /* ChatViewController.swift in Sources */,
 				0A629396247FB4CB0060C596 /* AppDelegate.swift in Sources */,
+				0A6293DA248110830060C596 /* Page.swift in Sources */,
 				0A6293CC247FE0CF0060C596 /* SearchViewController.swift in Sources */,
+				0A6293E0248124AC0060C596 /* BandCell.swift in Sources */,
+				0A6293D8248105BA0060C596 /* New.swift in Sources */,
 				0A6293C8247FDE900060C596 /* NewViewController.swift in Sources */,
 				0A6293D2247FE2030060C596 /* HomeViewController.swift in Sources */,
 				0A629398247FB4CB0060C596 /* SceneDelegate.swift in Sources */,
+				0A6293DE248124730060C596 /* Band.swift in Sources */,
 				0A6293C4247FDB0D0060C596 /* TabBarViewController.swift in Sources */,
+				0A6293E22481263A0060C596 /* UIColor.swift in Sources */,
+				0A6293DC248111580060C596 /* PageCell.swift in Sources */,
 				0A6293B6247FB7970060C596 /* MyPageViewController.swift in Sources */,
+				0A6293D6248100D40060C596 /* NewCell.swift in Sources */,
 				0A6293BC247FCAE80060C596 /* NewTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "imgNewband6.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "imgNewband6@2x.png",
+      "scale" : "2x",
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "imgNewband6@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
