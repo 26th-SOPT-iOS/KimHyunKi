@@ -10,14 +10,16 @@ import Foundation
 import UIKit
 
 struct Page {
-    //var image: UIImage?
-    var image: String
+    var image: UIImage?
+    //서버 안쓸때
+    //var image: String
     var title: String
     var subtitle: String
     
     init(imageName: String, title: String, subtitle: String){
-        // self.image = UIImage(named: imageName)
-        self.image = imageName
+        self.image = UIImage(named: imageName)
+        //서버 안쓸떄 
+        //self.image = imageName
         self.title = title
         self.subtitle = subtitle
     }

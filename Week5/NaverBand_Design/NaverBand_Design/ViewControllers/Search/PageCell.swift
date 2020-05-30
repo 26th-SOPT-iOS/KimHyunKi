@@ -17,18 +17,21 @@ class PageCell: UICollectionViewCell {
     
     @IBOutlet weak var Button: UIButton!
     
-    /*
+    
     func set(_ pageInformation: Page){
         Img.image = pageInformation.image
         TitleLabel.text = pageInformation.title
         subTitleLabel.text = pageInformation.subtitle
         
     }
- */
+ 
+    
+    /*서버 안쓸 때 일일이
     func setPageInfo(imageName: String, title: String, subtitle: String) {
         Img.image = UIImage(named: imageName)
         TitleLabel.text = title
         subTitleLabel.text = subtitle
     }
-    
+    */
+
 }

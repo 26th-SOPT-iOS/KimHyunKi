@@ -58,10 +58,10 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="950"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="EWG-Z9-K5m">
-                                                <rect key="frame" x="16" y="41" width="306" height="26"/>
+                                                <rect key="frame" x="16" y="41" width="306" height="30"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TxQ-TU-Tzp">
-                                                        <rect key="frame" x="0.0" y="0.0" width="77" height="26"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="77" height="30"/>
                                                         <color key="backgroundColor" red="0.098200641569999997" green="0.80821841959999996" blue="0.37852442260000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="77" id="5dO-Fr-kKX"/>
@@ -72,7 +72,7 @@
                                                         </state>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j5S-dH-bKm">
-                                                        <rect key="frame" x="89" y="0.0" width="72" height="26"/>
+                                                        <rect key="frame" x="89" y="0.0" width="72" height="30"/>
                                                         <color key="backgroundColor" red="0.098200641569999997" green="0.80821841959999996" blue="0.37852442260000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="72" id="Ei1-q8-LGI"/>
@@ -83,7 +83,7 @@
                                                         </state>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9SR-2U-DXV">
-                                                        <rect key="frame" x="173" y="0.0" width="44" height="26"/>
+                                                        <rect key="frame" x="173" y="0.0" width="44" height="30"/>
                                                         <color key="backgroundColor" red="0.098200641569999997" green="0.80821841959999996" blue="0.37852442260000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="44" id="Uu8-7Y-mAm"/>
@@ -94,7 +94,7 @@
                                                         </state>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xlf-UK-bqE">
-                                                        <rect key="frame" x="229" y="0.0" width="77" height="26"/>
+                                                        <rect key="frame" x="229" y="0.0" width="77" height="30"/>
                                                         <color key="backgroundColor" red="0.098200641569999997" green="0.80821841959999996" blue="0.37852442260000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="77" id="Xcn-ii-1Ue"/>
@@ -107,10 +107,10 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Msm-C4-1MB">
-                                                <rect key="frame" x="16" y="78" width="301" height="26"/>
+                                                <rect key="frame" x="16" y="82" width="301" height="30"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SC9-fh-H23">
-                                                        <rect key="frame" x="0.0" y="0.0" width="72" height="26"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="72" height="30"/>
                                                         <color key="backgroundColor" red="0.098200641569999997" green="0.80821841959999996" blue="0.37852442260000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="72" id="7UU-zw-ELU"/>
@@ -121,7 +121,7 @@
                                                         </state>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QbN-kK-PVt">
-                                                        <rect key="frame" x="84" y="0.0" width="71" height="26"/>
+                                                        <rect key="frame" x="84" y="0.0" width="71" height="30"/>
                                                         <color key="backgroundColor" red="0.098200641569999997" green="0.80821841959999996" blue="0.37852442260000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="71" id="RQ2-it-AGd"/>
@@ -132,7 +132,7 @@
                                                         </state>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MqH-R0-nkf">
-                                                        <rect key="frame" x="167" y="0.0" width="61" height="26"/>
+                                                        <rect key="frame" x="167" y="0.0" width="61" height="30"/>
                                                         <color key="backgroundColor" red="0.098200641569999997" green="0.80821841959999996" blue="0.37852442260000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="61" id="ceL-WU-aui"/>
@@ -143,7 +143,7 @@
                                                         </state>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R1J-Cu-Wm9">
-                                                        <rect key="frame" x="240" y="0.0" width="61" height="26"/>
+                                                        <rect key="frame" x="240" y="0.0" width="61" height="30"/>
                                                         <color key="backgroundColor" red="0.098200641569999997" green="0.80821841959999996" blue="0.37852442260000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="61" id="Bod-AY-ufP"/>
@@ -166,13 +166,13 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="새로 시작한 밴드" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yk7-Bd-gzI">
-                                                <rect key="frame" x="16" y="146" width="125" height="21"/>
+                                                <rect key="frame" x="16" y="154" width="125" height="26.666666666666657"/>
                                                 <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이런 밴드는 어때요?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QHx-WR-ro2">
-                                                <rect key="frame" x="16" y="706" width="156" height="21"/>
+                                                <rect key="frame" x="16" y="719.66666666666663" width="156" height="26.666666666666629"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="156" id="nRt-pZ-6T8"/>
                                                 </constraints>
@@ -181,7 +181,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="추천페이지" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6q-nR-S7s">
-                                                <rect key="frame" x="16" y="331" width="88" height="21"/>
+                                                <rect key="frame" x="16" y="344.66666666666669" width="88" height="26.666666666666686"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="88" id="cH7-ky-DRn"/>
                                                 </constraints>
@@ -198,21 +198,21 @@
                                                 <state key="normal" title="Button" image="btnAll"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3hg-fQ-nuB">
-                                                <rect key="frame" x="296" y="708" width="63" height="25"/>
+                                                <rect key="frame" x="296" y="721.66666666666663" width="63" height="25"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="63" id="bh8-vN-d7R"/>
                                                 </constraints>
                                                 <state key="normal" title="Button" image="btnAll"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gSa-78-dTq">
-                                                <rect key="frame" x="296" y="333" width="63" height="25"/>
+                                                <rect key="frame" x="296" y="346.66666666666669" width="63" height="25"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="63" id="aNF-S1-7fM"/>
                                                 </constraints>
                                                 <state key="normal" title="Button" image="btnAll"/>
                                             </button>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="jg9-dV-vWu">
-                                                <rect key="frame" x="16" y="181" width="359" height="108"/>
+                                                <rect key="frame" x="16" y="194.66666666666669" width="359" height="108"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="359" id="3Le-52-ZpD"/>
@@ -236,7 +236,7 @@
                                                                     <rect key="frame" x="0.0" y="0.0" width="48" height="48"/>
                                                                 </imageView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="남도의들꽃세상" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="953-iL-byt">
-                                                                    <rect key="frame" x="54" y="13.999999999999998" width="91" height="16.333333333333329"/>
+                                                                    <rect key="frame" x="54" y="14" width="91" height="21"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" constant="91" id="pYL-lQ-b74"/>
                                                                     </constraints>
@@ -270,7 +270,7 @@
                                                 </cells>
                                             </collectionView>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="wCy-Df-dUE">
-                                                <rect key="frame" x="16" y="372" width="359" height="292"/>
+                                                <rect key="frame" x="16" y="385.66666666666674" width="359" height="292"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="292" id="6U1-Kp-vE7"/>
@@ -294,7 +294,7 @@
                                                                     <rect key="frame" x="0.0" y="0.0" width="81" height="80"/>
                                                                 </imageView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="반려동물가이드" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d7y-hQ-81E">
-                                                                    <rect key="frame" x="107" y="15" width="97" height="24"/>
+                                                                    <rect key="frame" x="107" y="15" width="103.33333333333331" height="24"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="24" id="eb2-m6-7qV"/>
                                                                     </constraints>
@@ -343,7 +343,7 @@
                                                 </cells>
                                             </collectionView>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="pT5-Xy-dWU">
-                                                <rect key="frame" x="16" y="747" width="359" height="173"/>
+                                                <rect key="frame" x="16" y="760.66666666666663" width="359" height="173"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="173" id="A9V-Wa-uz4"/>
@@ -388,7 +388,7 @@
                                                                     <rect key="frame" x="0.0" y="0.0" width="254" height="150"/>
                                                                 </button>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="neymar123" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PFc-1M-cWz">
-                                                                    <rect key="frame" x="131.66666666666666" y="94" width="60" height="18"/>
+                                                                    <rect key="frame" x="131.66666666666666" y="94" width="63" height="18"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="18" id="cmd-Co-uMN"/>
                                                                     </constraints>
@@ -397,7 +397,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="멤버 99,999" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uGv-Sb-kn5">
-                                                                    <rect key="frame" x="61" y="94" width="61" height="14"/>
+                                                                    <rect key="frame" x="61" y="94" width="61" height="18"/>
                                                                     <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="12"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>

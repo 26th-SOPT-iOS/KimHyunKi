@@ -60,7 +60,7 @@
         <!--Tab Bar View Controller-->
         <scene sceneID="Xwr-Ys-j9k">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="os8-T7-lrh" customClass="TabBarViewController" customModule="NaverBand_Design" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="Main" automaticallyAdjustsScrollViewInsets="NO" id="os8-T7-lrh" customClass="TabBarViewController" customModule="NaverBand_Design" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ku7-tH-4Sl">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>

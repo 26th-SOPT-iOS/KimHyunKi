@@ -19,9 +19,11 @@ class SearchViewController: UIViewController {
     @IBOutlet weak var BandCollectionView: UICollectionView!
     // 데이터 임의로 넣기
     
-        private var NewList: [New] = []
-        private var PageList: [Page] = []
-        private var BandList : [Band] = []
+        
+        //서버 연동 시 필요 없
+        //private var NewList: [New] = []
+        //private var PageList: [Page] = []
+        //private var BandList : [Band] = []
      
     
     override func viewDidLoad() {
@@ -32,15 +34,15 @@ class SearchViewController: UIViewController {
             
             RoundBtn()
 
-            setNewList()
+            //setNewList()
             NewCollectionView.delegate = self
             NewCollectionView.dataSource = self
             
-            setPageList()
+            //setPageList()
             PageCollectionView.delegate = self
             PageCollectionView.dataSource = self
             
-            setBandList()
+            //setBandList()
             BandCollectionView.delegate = self
             BandCollectionView.dataSource = self
          
@@ -56,8 +58,8 @@ class SearchViewController: UIViewController {
         
          }
         
-        // 서버 통신X , collection view 데이터 리스트
-    
+    // 서버 통신X , collection view 데이터 리스트 서버 통신 안할 때 사용할 부분
+    /*
     private func setNewList(){
             let new1 = New(imageName: "imgNewband", title: "남도의들꽃세상")
             let new2 = New(imageName: "imgNewband2", title: "자전거타기")
@@ -91,8 +93,18 @@ class SearchViewController: UIViewController {
  
  
     }
+ */
 
-/* 서버 파트 진행시
+
+
+}
+
+
+
+
+
+// 서버 파트와 진행시
+    
     extension SearchViewController:UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout{
         
         // 각각의 collection view별로 분기 처리
@@ -165,10 +177,10 @@ class SearchViewController: UIViewController {
         
         
     }
-*/
 
 
 
+    //텍스트 필드에 관한 부분
     extension SearchViewController:UITextFieldDelegate {
         
         private func addKeyboardObserver() {
@@ -207,6 +219,8 @@ class SearchViewController: UIViewController {
 
 
 
+
+/* 서버 말고 컬렉션 뷰에 일일이 들어가야할 값을 줄 때
 extension SearchViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -269,3 +283,5 @@ extension SearchViewController: UICollectionViewDataSource, UICollectionViewDele
         }
     }
 }
+*/
+

@@ -10,13 +10,21 @@ import Foundation
 import UIKit
 
 struct New {
+    //서버 안쓸때
+    //var image: String
     
-    var image: String
+    
+    var image: UIImage?
     var title: String
     
     init(imageName: String, title: String){
         
-        self.image = imageName
+        self.image = UIImage(named: imageName)
+        
+        //서버 안쓸땐
+        //self.image = imageName
+        
+        
         self.title = title
     }
 }

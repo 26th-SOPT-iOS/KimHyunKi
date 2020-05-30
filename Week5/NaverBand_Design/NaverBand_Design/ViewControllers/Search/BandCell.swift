@@ -17,7 +17,9 @@ class BandCell: UICollectionViewCell {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var line: UILabel!
     @IBOutlet weak var Button: UIButton!
-    /*
+    
+    
+    
     func set(_ bandInformation: Band){
         Img.image = bandInformation.image
         titleLabel.text = bandInformation.title
@@ -25,13 +27,16 @@ class BandCell: UICollectionViewCell {
         nameLabel.text = bandInformation.name
         
     }
- */
+ 
     
+    
+    
+    /*서버 안쓸때 일일이 넣어줄떄
     func setBandInfo(imageName: String, title: String, number: String, name: String) {
         Img.image = UIImage(named: imageName)
         titleLabel.text = title
         numberLabel.text = number
         nameLabel.text = name
     }
-    
+    */
 }

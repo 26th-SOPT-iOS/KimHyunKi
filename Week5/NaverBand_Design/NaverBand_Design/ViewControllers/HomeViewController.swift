@@ -14,6 +14,7 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         
         // tab bar item의 title 설정
+        
         if let downcastStrings = self.tabBarController?.tabBar.items
         {
             downcastStrings[0].title = "Home"
@@ -31,11 +32,12 @@ class HomeViewController: UIViewController {
             
             // 클릭시 tab bar color 설정
             self.tabBarController?.tabBar.selectedImageTintColor = UIColor.naver
-
-           
+         
+        
         }
 
        
+        
     }
     
     
