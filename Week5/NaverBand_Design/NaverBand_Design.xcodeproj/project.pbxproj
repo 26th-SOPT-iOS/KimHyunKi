@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A196C3B248252CE000E33A2 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A196C3A248252CE000E33A2 /* APIConstants.swift */; };
+		0A196C3D24825541000E33A2 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A196C3C24825541000E33A2 /* NetworkResult.swift */; };
+		0A196C40248255B7000E33A2 /* NewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A196C3F248255B7000E33A2 /* NewService.swift */; };
+		0A196C422482571F000E33A2 /* NewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A196C412482571F000E33A2 /* NewData.swift */; };
 		0A629396247FB4CB0060C596 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A629395247FB4CB0060C596 /* AppDelegate.swift */; };
 		0A629398247FB4CB0060C596 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A629397247FB4CB0060C596 /* SceneDelegate.swift */; };
 		0A62939A247FB4CB0060C596 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A629399247FB4CB0060C596 /* ViewController.swift */; };
@@ -41,6 +45,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A196C3A248252CE000E33A2 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		0A196C3C24825541000E33A2 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		0A196C3F248255B7000E33A2 /* NewService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewService.swift; sourceTree = "<group>"; };
+		0A196C412482571F000E33A2 /* NewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewData.swift; sourceTree = "<group>"; };
 		0A629392247FB4CB0060C596 /* NaverBand_Design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaverBand_Design.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A629395247FB4CB0060C596 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A629397247FB4CB0060C596 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +98,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A196C3E24825568000E33A2 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				0ADBFC3F2490F79A00BC85FF /* Services */,
+				0ADBFC3E2490F78900BC85FF /* Responses */,
+				0A196C3F248255B7000E33A2 /* NewService.swift */,
+				0A196C412482571F000E33A2 /* NewData.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		0A629389247FB4CB0060C596 = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +217,7 @@
 		0A6293B2247FB62F0060C596 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0A196C3E24825568000E33A2 /* API */,
 				0A62939B247FB4CB0060C596 /* Main.storyboard */,
 				0A6293A0247FB4D00060C596 /* LaunchScreen.storyboard */,
 				0A6293B3247FB7280060C596 /* MyPage.storyboard */,
@@ -208,6 +228,22 @@
 				0A62939E247FB4D00060C596 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		0ADBFC3E2490F78900BC85FF /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				0A196C3A248252CE000E33A2 /* APIConstants.swift */,
+				0A196C3C24825541000E33A2 /* NetworkResult.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		0ADBFC3F2490F79A00BC85FF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		5211214A4B40A7CB68D8A37F /* Frameworks */ = {
@@ -224,7 +260,6 @@
 				1428040AD6CFECF5820E60DD /* Pods-NaverBand_Design.debug.xcconfig */,
 				1434596EE169AF17A41BF187 /* Pods-NaverBand_Design.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -357,14 +392,18 @@
 				0A6293D4247FE2120060C596 /* ChatViewController.swift in Sources */,
 				0A629396247FB4CB0060C596 /* AppDelegate.swift in Sources */,
 				0A6293DA248110830060C596 /* Page.swift in Sources */,
+				0A196C3B248252CE000E33A2 /* APIConstants.swift in Sources */,
 				0A6293CC247FE0CF0060C596 /* SearchViewController.swift in Sources */,
 				0A6293E0248124AC0060C596 /* BandCell.swift in Sources */,
 				0A6293D8248105BA0060C596 /* New.swift in Sources */,
 				0A6293C8247FDE900060C596 /* NewViewController.swift in Sources */,
 				0A6293D2247FE2030060C596 /* HomeViewController.swift in Sources */,
+				0A196C3D24825541000E33A2 /* NetworkResult.swift in Sources */,
 				0A629398247FB4CB0060C596 /* SceneDelegate.swift in Sources */,
 				0A6293DE248124730060C596 /* Band.swift in Sources */,
+				0A196C422482571F000E33A2 /* NewData.swift in Sources */,
 				0A6293C4247FDB0D0060C596 /* TabBarViewController.swift in Sources */,
+				0A196C40248255B7000E33A2 /* NewService.swift in Sources */,
 				0A6293E22481263A0060C596 /* UIColor.swift in Sources */,
 				0A6293DC248111580060C596 /* PageCell.swift in Sources */,
 				0A6293B6247FB7970060C596 /* MyPageViewController.swift in Sources */,

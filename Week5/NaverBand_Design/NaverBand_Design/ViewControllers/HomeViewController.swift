@@ -34,6 +34,7 @@ class HomeViewController: UIViewController {
             self.tabBarController?.tabBar.selectedImageTintColor = UIColor.naver
          
         
+        
         }
 
        
