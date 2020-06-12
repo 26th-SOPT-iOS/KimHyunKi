@@ -12,15 +12,24 @@ class NewCell: UICollectionViewCell {
     
     static let identifier: String = "NewCell"
     
-    @IBOutlet weak var Img: UIImageView!
+    @IBOutlet weak var NewImg: UIImageView!
     @IBOutlet weak var Label: UILabel!
     
-    
+    /*
     func set(_ newInformation: New){
-        Img.image = newInformation.image
+        NewImg.image = newInformation.image
         Label.text = newInformation.title
     }
-  
+  */
+    
+    
+     override func awakeFromNib() {
+         super.awakeFromNib()
+         
+     }
+     
+    
+    
     
     /* 서버 안쓸때 일일이 연결하는 경우
     func setNewBandInfo(imageName: String, name: String) {

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class MyPageViewController: UIViewController {
     
@@ -14,15 +15,21 @@ class MyPageViewController: UIViewController {
     
     @IBOutlet weak var NewTableView: UITableView!
     
+     var NewNoticeDataSet = [NewNoticeData.NewNoticeDataClass]()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         
         self.NewTableView.separatorStyle = UITableViewCell.SeparatorStyle.none
         
-        setnewTableInformations()
+        //setnewTableInformations()
         NewTableView.dataSource = self
         NewTableView.delegate = self
+        
+        newnoticeData()
+        
         /*
         if let downcastStrings = self.tabBarController?.tabBar.items
         {
@@ -44,8 +51,11 @@ class MyPageViewController: UIViewController {
         // Do any additional setup after loading the view.
  */
         
+        
     }
     
+    
+    /* 일일이 넣어줄 경우
     private func setnewTableInformations(){
            
            let cell1 = NewTableInformation(image: .cell1, title: "순위로 보는 요즘 핫한 맛집과 카페", subtitle: "내마음속에 저장각!")
@@ -54,20 +64,44 @@ class MyPageViewController: UIViewController {
            
            newTableInformations = [cell1, cell2, cell3]
        }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
     */
+    
+    
+    
+    func newnoticeData(){
+        
+        NewNoticeService.shared.NewNotice {
+                
+                response in
+                
+                switch response{
+                case . success(let data):
+                    self.NewNoticeDataSet = [] // 초기화
+                    self.NewNoticeDataSet = data as!
+                        [NewNoticeData.NewNoticeDataClass]
+                    
+                    self.NewTableView.reloadData()
+                    
+                case.networkFail:
+                    print("error")
+                    print(" reco Band 실패")
+                    
+                case .requestErr(_):
+                    print("requestErr")
+                case .pathErr:
+                    print("pathErr")
+                case .serverErr:
+                    print("serverErr")
+                }
+                
+            }
+    }
+    
 
 }
 
+
+/* 통신 전의 extension
 extension MyPageViewController: UITableViewDelegate, UITableViewDataSource{
     
     //section의 행의 개수 지정
@@ -83,6 +117,41 @@ extension MyPageViewController: UITableViewDelegate, UITableViewDataSource{
             indexPath) as? NewTableCell else { return UITableViewCell() }
         NewTableCell.setnewTableInformations(ImageName:newTableInformations[indexPath.row].image.getImageName(),title: newTableInformations[indexPath.row].title, subtitle: newTableInformations[indexPath.row].subtitle)
         return NewTableCell }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {return 102 }
+}
+*/
+
+
+extension MyPageViewController: UITableViewDelegate, UITableViewDataSource{
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return NewNoticeDataSet.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+//        guard let NewTableCell = tableView.dequeueReusableCell(withIdentifier: NewTableCell.identifier, for:
+//            indexPath) as? NewTableCell else { return UITableViewCell() }
+//        NewTableCell.setnewTableInformations(ImageName:newTableInformations[indexPath.row].image.getImageName(),title: newTableInformations[indexPath.row].title, subtitle: newTableInformations[indexPath.row].subtitle)
+//        return NewTableCell
+        
+        let tablecell = tableView.dequeueReusableCell(withIdentifier: "NewTableCell",for:indexPath) as! NewTableCell
+        
+        let newCell = NewNoticeDataSet[indexPath.row]
+        
+        tablecell.TitleLabel.text = newCell.noticeTitle
+        tablecell.subTitleLabel.text = newCell.noticeSub
+        
+        let urlStr = newCell.noticeThumbnail
+        
+        tablecell.Img.kf.setImage(with: URL(string: urlStr))
+        
+        print(tablecell)
+        
+        return tablecell
+        
+    }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {return 102 }
 }

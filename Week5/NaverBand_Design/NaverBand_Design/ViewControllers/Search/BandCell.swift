@@ -10,7 +10,7 @@ import UIKit
 
 class BandCell: UICollectionViewCell {
     static let identifier: String = "BandCell"
-    @IBOutlet weak var BackImg: UIImageView!
+    @IBOutlet weak var BandImg: UIImageView!
     @IBOutlet weak var Img: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var numberLabel: UILabel!
@@ -19,15 +19,23 @@ class BandCell: UICollectionViewCell {
     @IBOutlet weak var Button: UIButton!
     
     
-    
+    /*
     func set(_ bandInformation: Band){
-        Img.image = bandInformation.image
+        BandImg.image = bandInformation.image
         titleLabel.text = bandInformation.title
         numberLabel.text = bandInformation.number
         nameLabel.text = bandInformation.name
         
     }
+ */
+    
  
+   
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        
+    }
     
     
     

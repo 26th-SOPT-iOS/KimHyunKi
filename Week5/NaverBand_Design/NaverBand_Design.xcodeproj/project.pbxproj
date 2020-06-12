@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		0A196C3B248252CE000E33A2 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A196C3A248252CE000E33A2 /* APIConstants.swift */; };
 		0A196C3D24825541000E33A2 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A196C3C24825541000E33A2 /* NetworkResult.swift */; };
-		0A196C40248255B7000E33A2 /* NewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A196C3F248255B7000E33A2 /* NewService.swift */; };
-		0A196C422482571F000E33A2 /* NewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A196C412482571F000E33A2 /* NewData.swift */; };
 		0A629396247FB4CB0060C596 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A629395247FB4CB0060C596 /* AppDelegate.swift */; };
 		0A629398247FB4CB0060C596 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A629397247FB4CB0060C596 /* SceneDelegate.swift */; };
 		0A62939A247FB4CB0060C596 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A629399247FB4CB0060C596 /* ViewController.swift */; };
@@ -41,14 +39,20 @@
 		0A6293DE248124730060C596 /* Band.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6293DD248124730060C596 /* Band.swift */; };
 		0A6293E0248124AC0060C596 /* BandCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6293DF248124AC0060C596 /* BandCell.swift */; };
 		0A6293E22481263A0060C596 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6293E12481263A0060C596 /* UIColor.swift */; };
+		0ADBFC412493549F00BC85FF /* NewBandData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBFC402493549F00BC85FF /* NewBandData.swift */; };
+		0ADBFC432493566000BC85FF /* NewBandService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBFC422493566000BC85FF /* NewBandService.swift */; };
+		0ADBFC45249363A900BC85FF /* NewNoticeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBFC44249363A900BC85FF /* NewNoticeData.swift */; };
+		0ADBFC47249363D000BC85FF /* NewNoticeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBFC46249363D000BC85FF /* NewNoticeService.swift */; };
+		0ADBFC4924936D3400BC85FF /* RecommendBandData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBFC4824936D3400BC85FF /* RecommendBandData.swift */; };
+		0ADBFC4B24936D4100BC85FF /* RecommendPageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBFC4A24936D4100BC85FF /* RecommendPageData.swift */; };
+		0ADBFC4D24936D7700BC85FF /* RecommendBandService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBFC4C24936D7700BC85FF /* RecommendBandService.swift */; };
+		0ADBFC5124936D9800BC85FF /* RecommendPageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBFC5024936D9800BC85FF /* RecommendPageService.swift */; };
 		4947A26CC074426BAA9A9BD5 /* Pods_NaverBand_Design.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5B5E61D351B6BC5F378C82 /* Pods_NaverBand_Design.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A196C3A248252CE000E33A2 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		0A196C3C24825541000E33A2 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
-		0A196C3F248255B7000E33A2 /* NewService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewService.swift; sourceTree = "<group>"; };
-		0A196C412482571F000E33A2 /* NewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewData.swift; sourceTree = "<group>"; };
 		0A629392247FB4CB0060C596 /* NaverBand_Design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaverBand_Design.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A629395247FB4CB0060C596 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A629397247FB4CB0060C596 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +85,14 @@
 		0A6293DD248124730060C596 /* Band.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Band.swift; sourceTree = "<group>"; };
 		0A6293DF248124AC0060C596 /* BandCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandCell.swift; sourceTree = "<group>"; };
 		0A6293E12481263A0060C596 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		0ADBFC402493549F00BC85FF /* NewBandData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBandData.swift; sourceTree = "<group>"; };
+		0ADBFC422493566000BC85FF /* NewBandService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBandService.swift; sourceTree = "<group>"; };
+		0ADBFC44249363A900BC85FF /* NewNoticeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoticeData.swift; sourceTree = "<group>"; };
+		0ADBFC46249363D000BC85FF /* NewNoticeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoticeService.swift; sourceTree = "<group>"; };
+		0ADBFC4824936D3400BC85FF /* RecommendBandData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendBandData.swift; sourceTree = "<group>"; };
+		0ADBFC4A24936D4100BC85FF /* RecommendPageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendPageData.swift; sourceTree = "<group>"; };
+		0ADBFC4C24936D7700BC85FF /* RecommendBandService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendBandService.swift; sourceTree = "<group>"; };
+		0ADBFC5024936D9800BC85FF /* RecommendPageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendPageService.swift; sourceTree = "<group>"; };
 		1428040AD6CFECF5820E60DD /* Pods-NaverBand_Design.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaverBand_Design.debug.xcconfig"; path = "Target Support Files/Pods-NaverBand_Design/Pods-NaverBand_Design.debug.xcconfig"; sourceTree = "<group>"; };
 		1434596EE169AF17A41BF187 /* Pods-NaverBand_Design.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaverBand_Design.release.xcconfig"; path = "Target Support Files/Pods-NaverBand_Design/Pods-NaverBand_Design.release.xcconfig"; sourceTree = "<group>"; };
 		1E5B5E61D351B6BC5F378C82 /* Pods_NaverBand_Design.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaverBand_Design.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,8 +115,6 @@
 			children = (
 				0ADBFC3F2490F79A00BC85FF /* Services */,
 				0ADBFC3E2490F78900BC85FF /* Responses */,
-				0A196C3F248255B7000E33A2 /* NewService.swift */,
-				0A196C412482571F000E33A2 /* NewData.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -235,6 +245,10 @@
 			children = (
 				0A196C3A248252CE000E33A2 /* APIConstants.swift */,
 				0A196C3C24825541000E33A2 /* NetworkResult.swift */,
+				0ADBFC402493549F00BC85FF /* NewBandData.swift */,
+				0ADBFC44249363A900BC85FF /* NewNoticeData.swift */,
+				0ADBFC4824936D3400BC85FF /* RecommendBandData.swift */,
+				0ADBFC4A24936D4100BC85FF /* RecommendPageData.swift */,
 			);
 			path = Responses;
 			sourceTree = "<group>";
@@ -242,6 +256,10 @@
 		0ADBFC3F2490F79A00BC85FF /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				0ADBFC422493566000BC85FF /* NewBandService.swift */,
+				0ADBFC46249363D000BC85FF /* NewNoticeService.swift */,
+				0ADBFC4C24936D7700BC85FF /* RecommendBandService.swift */,
+				0ADBFC5024936D9800BC85FF /* RecommendPageService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -390,25 +408,31 @@
 				0A6293C2247FD1080060C596 /* NewTableInformation.swift in Sources */,
 				0A62939A247FB4CB0060C596 /* ViewController.swift in Sources */,
 				0A6293D4247FE2120060C596 /* ChatViewController.swift in Sources */,
+				0ADBFC4924936D3400BC85FF /* RecommendBandData.swift in Sources */,
 				0A629396247FB4CB0060C596 /* AppDelegate.swift in Sources */,
 				0A6293DA248110830060C596 /* Page.swift in Sources */,
 				0A196C3B248252CE000E33A2 /* APIConstants.swift in Sources */,
+				0ADBFC47249363D000BC85FF /* NewNoticeService.swift in Sources */,
+				0ADBFC45249363A900BC85FF /* NewNoticeData.swift in Sources */,
 				0A6293CC247FE0CF0060C596 /* SearchViewController.swift in Sources */,
 				0A6293E0248124AC0060C596 /* BandCell.swift in Sources */,
+				0ADBFC4B24936D4100BC85FF /* RecommendPageData.swift in Sources */,
+				0ADBFC412493549F00BC85FF /* NewBandData.swift in Sources */,
 				0A6293D8248105BA0060C596 /* New.swift in Sources */,
 				0A6293C8247FDE900060C596 /* NewViewController.swift in Sources */,
 				0A6293D2247FE2030060C596 /* HomeViewController.swift in Sources */,
 				0A196C3D24825541000E33A2 /* NetworkResult.swift in Sources */,
 				0A629398247FB4CB0060C596 /* SceneDelegate.swift in Sources */,
 				0A6293DE248124730060C596 /* Band.swift in Sources */,
-				0A196C422482571F000E33A2 /* NewData.swift in Sources */,
 				0A6293C4247FDB0D0060C596 /* TabBarViewController.swift in Sources */,
-				0A196C40248255B7000E33A2 /* NewService.swift in Sources */,
 				0A6293E22481263A0060C596 /* UIColor.swift in Sources */,
 				0A6293DC248111580060C596 /* PageCell.swift in Sources */,
 				0A6293B6247FB7970060C596 /* MyPageViewController.swift in Sources */,
 				0A6293D6248100D40060C596 /* NewCell.swift in Sources */,
 				0A6293BC247FCAE80060C596 /* NewTableCell.swift in Sources */,
+				0ADBFC5124936D9800BC85FF /* RecommendPageService.swift in Sources */,
+				0ADBFC4D24936D7700BC85FF /* RecommendBandService.swift in Sources */,
+				0ADBFC432493566000BC85FF /* NewBandService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
