@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -263,8 +263,8 @@
                                                         </collectionViewCellContentView>
                                                         <size key="customSize" width="147" height="48"/>
                                                         <connections>
-                                                            <outlet property="Img" destination="RIT-yr-TRM" id="fah-8r-sV8"/>
                                                             <outlet property="Label" destination="953-iL-byt" id="9Yy-l1-1aq"/>
+                                                            <outlet property="NewImg" destination="RIT-yr-TRM" id="hil-4E-Od0"/>
                                                         </connections>
                                                     </collectionViewCell>
                                                 </cells>
@@ -335,7 +335,7 @@
                                                         <size key="customSize" width="312" height="80"/>
                                                         <connections>
                                                             <outlet property="Button" destination="ocU-VO-4CT" id="vC8-6Z-pUx"/>
-                                                            <outlet property="Img" destination="hxY-Cm-qHG" id="9QI-zf-dfJ"/>
+                                                            <outlet property="PageImg" destination="hxY-Cm-qHG" id="gdv-VD-9m0"/>
                                                             <outlet property="TitleLabel" destination="d7y-hQ-81E" id="o6M-qo-WyJ"/>
                                                             <outlet property="subTitleLabel" destination="xeE-Yf-WFH" id="c6e-jp-uUg"/>
                                                         </connections>
@@ -431,8 +431,8 @@
                                                         <size key="customSize" width="254" height="150"/>
                                                         <connections>
                                                             <outlet property="BackImg" destination="1gZ-Ty-lph" id="CSC-8n-x10"/>
+                                                            <outlet property="BandImg" destination="JbG-OG-Dkh" id="Xi2-NW-NDo"/>
                                                             <outlet property="Button" destination="GJE-6k-3Pi" id="dxM-Fq-gkp"/>
-                                                            <outlet property="Img" destination="JbG-OG-Dkh" id="Qis-sA-c3f"/>
                                                             <outlet property="line" destination="KeE-Qt-FrM" id="8sd-T9-cnb"/>
                                                             <outlet property="nameLabel" destination="PFc-1M-cWz" id="K97-KS-yBr"/>
                                                             <outlet property="numberLabel" destination="uGv-Sb-kn5" id="fto-B9-J2y"/>
