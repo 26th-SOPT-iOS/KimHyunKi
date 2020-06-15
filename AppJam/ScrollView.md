@@ -1,5 +1,7 @@
 ## 스크롤 뷰 구현하기
 
+📝방식1.
+
 (탑 뷰에 고정되는 것이 있는 경우)
 
 1. 위에 고정물(이미지) 놓고 오토레이아웃 주기
@@ -11,7 +13,9 @@
 7. equal width to View 해 주기 (제일 상위 뷰, 즉 전체 뷰에 equal width)
 8. ScrollView에 bottom/ trailing/ leading/ top 다 걸려 있어야 함 
 
+***
 
+📝방식2.
 
 이미지 뷰(트레일링 리딩 탑 equal width, equal height)
 
@@ -21,3 +25,6 @@
 
 뷰(컨텐츠 뷰)를 스크롤 뷰 아래에 집어넣고 오토 레이아웃 0 0 0 0 / 최상위 뷰에 equal width, equal height
 
+equal height 영역 priority 250 잡아주기
+
+<img src = "../markdown_image/appjam-1.png" width ="50%" alt ="a">
