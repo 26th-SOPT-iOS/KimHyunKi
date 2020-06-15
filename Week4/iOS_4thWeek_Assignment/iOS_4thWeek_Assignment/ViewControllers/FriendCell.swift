@@ -8,6 +8,14 @@
 
 import UIKit
 
+//프로토콜 선언
+protocol ButtonDelegate {
+    func onClickCellButton(in index: Int)
+}
+
+
+
+
 class FriendCell: UITableViewCell {
     static let identifier: String = "FriendCell"
     
@@ -15,6 +23,11 @@ class FriendCell: UITableViewCell {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var statusLabel: UILabel!
     
+    @IBOutlet weak var profileImage: UIButton!
+    
+    //버튼 액션을 대신 처리해줄 객체를 delegate에 넣는다
+    var delegate: ButtonDelegate?
+    var indexPath: IndexPath?
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -26,6 +39,11 @@ class FriendCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    @IBAction func setProfile(_ sender: Any) {
+        delegate?.onClickCellButton(in: indexPath!.row)
+    }
+    
     
     func setFriendInformation(faceImageName: String, name: String, status: String){
         

@@ -9,6 +9,9 @@
 import UIKit
 
 class FriendViewController: UIViewController {
+    //아이폰 카메라 & 갤러리에 접근
+    private var pickerController = UIImagePickerController()
+    
     @IBOutlet weak var friendTableView: UITableView!
   
     
@@ -31,8 +34,11 @@ class FriendViewController: UIViewController {
         friendTableView.delegate = self
         friendTableView.dataSource = self
             
+        pickerController.delegate = self
+        
         
         //self.friendTableView.sectionFooterHeight = 1;
+        
         
     
     }
@@ -217,6 +223,11 @@ extension FriendViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: FriendCell.identifier, for: indexPath) as? FriendCell else{ return UITableViewCell()}
         
+        
+        cell.indexPath = indexPath
+        cell.delegate = self
+        
+        
         if indexPath.section == 0 {
             
             cell.setFriendInformation(faceImageName: meProfile[indexPath.row].profileImg, name: meProfile[indexPath.row].name, status: meProfile[indexPath.row].statusMsg)
@@ -392,4 +403,63 @@ extension FriendViewController: UITableViewDelegate {
           }
       }
 }
+
+
+
+
+extension FriendViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate{
+    func openLibrary(){
+        pickerController.sourceType = .photoLibrary
+        self.present(pickerController, animated: true, completion: nil)
+    }
+    
+    func openCamera(){
+        pickerController.sourceType = .camera
+        self.present(pickerController, animated: true, completion: nil)
+    }
+    
+   func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        if let image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage, let url = info[UIImagePickerController.InfoKey.imageURL] as? URL {
+            
+            guard let token = UserDefaults.standard.object(forKey: "token") as? String else { return }
+            UploadService.shared.uploadImage(token, image, url.lastPathComponent) { networkResult in
+                switch networkResult {
+                case .success(let profileData):
+                    guard let profileData = profileData as? [UserProfile] else { return }
+                    print(profileData[0].profile)
+                    guard let profileCell = self.friendTableView.cellForRow(at: IndexPath(row: 0, section: 0)) as? FriendCell else { return }
+                    profileCell.profileImage.setImage(image: UIImage) = image
+                case .requestErr(let failMessage):
+                    guard let message = failMessage as? String else { return }
+                    print(message)
+                case .pathErr:
+                    print("pathErr")
+                case .serverErr:
+                    print("serverErr")
+                case .networkFail:
+                    print("networkFail")
+                }
+            }
+        }
+        dismiss(animated: true, completion: nil)
+    }
+}
+
+
+
+extension FriendViewController: ButtonDelegate { func onClickCellButton(in index: Int) {
+    let alertController = UIAlertController(title: "사진 선택", message: "가져올 곳을 선택하세요", preferredStyle: .actionSheet)
+    let galleryAction = UIAlertAction(title: "사진앨범", style: .default) { action in self.openLibrary()
+}
+    
+    let photoAcgtion = UIAlertAction(title: "카메라", style: .default) { action in self.openCamera()
+}
+    
+    let cancelAction = UIAlertAction(title: "취소", style: .cancel, handler: nil)
+    alertController.addAction(galleryAction)
+    alertController.addAction(photoAcgtion)
+    alertController.addAction(cancelAction)
+    self.present(alertController, animated: true, completion: nil) }
+}
+
 

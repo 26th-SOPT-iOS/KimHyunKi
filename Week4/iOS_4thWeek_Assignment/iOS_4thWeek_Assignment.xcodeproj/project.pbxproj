@@ -24,6 +24,9 @@
 		0A7A7D192474319300D1E626 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A7D182474319300D1E626 /* SignupViewController.swift */; };
 		0A8D23DE2476E2F40038D153 /* SignupData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D23DD2476E2F40038D153 /* SignupData.swift */; };
 		0A8D23E02476E3530038D153 /* SignupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D23DF2476E3530038D153 /* SignupService.swift */; };
+		0ADBFC532494CDA900BC85FF /* ProfileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBFC522494CDA900BC85FF /* ProfileData.swift */; };
+		0ADBFC552494CE3600BC85FF /* UploadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBFC542494CE3600BC85FF /* UploadService.swift */; };
+		0ADBFC572494D2AD00BC85FF /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBFC562494D2AD00BC85FF /* UIImageView+Extensions.swift */; };
 		E6EC732656DE7E108AF8A730 /* Pods_iOS_4thWeek_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E457EA03AA877EF0922C4E53 /* Pods_iOS_4thWeek_Assignment.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +50,9 @@
 		0A7A7D182474319300D1E626 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		0A8D23DD2476E2F40038D153 /* SignupData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupData.swift; sourceTree = "<group>"; };
 		0A8D23DF2476E3530038D153 /* SignupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupService.swift; sourceTree = "<group>"; };
+		0ADBFC522494CDA900BC85FF /* ProfileData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileData.swift; sourceTree = "<group>"; };
+		0ADBFC542494CE3600BC85FF /* UploadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadService.swift; sourceTree = "<group>"; };
+		0ADBFC562494D2AD00BC85FF /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		1C0CCE845E5CDC294FFE1DF5 /* Pods-iOS_4thWeek_Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_4thWeek_Assignment.debug.xcconfig"; path = "Target Support Files/Pods-iOS_4thWeek_Assignment/Pods-iOS_4thWeek_Assignment.debug.xcconfig"; sourceTree = "<group>"; };
 		3669C2A4DFCA4C08EBD11CB2 /* Pods-iOS_4thWeek_Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_4thWeek_Assignment.release.xcconfig"; path = "Target Support Files/Pods-iOS_4thWeek_Assignment/Pods-iOS_4thWeek_Assignment.release.xcconfig"; sourceTree = "<group>"; };
 		E457EA03AA877EF0922C4E53 /* Pods_iOS_4thWeek_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_4thWeek_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +108,9 @@
 				0A41F12D246FDA8E001A45D2 /* NetworkResult.swift */,
 				0A41F12F246FDAB2001A45D2 /* LoginService.swift */,
 				0A8D23DF2476E3530038D153 /* SignupService.swift */,
+				0ADBFC522494CDA900BC85FF /* ProfileData.swift */,
+				0ADBFC542494CE3600BC85FF /* UploadService.swift */,
+				0ADBFC562494D2AD00BC85FF /* UIImageView+Extensions.swift */,
 				0A41F112246FD3C3001A45D2 /* Assets.xcassets */,
 				0A41F11E246FD3EE001A45D2 /* Storyboards */,
 			);
@@ -275,10 +284,13 @@
 				0A41F12E246FDA8E001A45D2 /* NetworkResult.swift in Sources */,
 				0A41F122246FD503001A45D2 /* FriendViewController.swift in Sources */,
 				0A41F126246FD595001A45D2 /* FriendCell.swift in Sources */,
+				0ADBFC572494D2AD00BC85FF /* UIImageView+Extensions.swift in Sources */,
+				0ADBFC552494CE3600BC85FF /* UploadService.swift in Sources */,
 				0A41F10E246FD3C0001A45D2 /* ViewController.swift in Sources */,
 				0A41F12A246FDA3F001A45D2 /* APIConstants.swift in Sources */,
 				0A7A7D192474319300D1E626 /* SignupViewController.swift in Sources */,
 				0A41F130246FDAB2001A45D2 /* LoginService.swift in Sources */,
+				0ADBFC532494CDA900BC85FF /* ProfileData.swift in Sources */,
 				0A41F10A246FD3C0001A45D2 /* AppDelegate.swift in Sources */,
 				0A41F124246FD545001A45D2 /* Friends.swift in Sources */,
 				0A41F10C246FD3C0001A45D2 /* SceneDelegate.swift in Sources */,
