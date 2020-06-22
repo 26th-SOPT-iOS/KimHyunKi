@@ -24,6 +24,10 @@
 
 ### 커스텀 폰트 입히기
 
+: Sources 폴더 안에 Fonts 폴더를 만들고 다음 링크와 같이 적용해 주면 된다.
+
+https://zeddios.tistory.com/199
+
 
 
 
