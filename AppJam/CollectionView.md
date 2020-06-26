@@ -15,3 +15,9 @@
 
 
 초기 세팅 완료! 
+
+<img src="../markdown_image/appjam-6.png" alt="4-1" style="zoom:50%;" />
+
+
+
+collectionView를 활용하면 다음과 같은 뷰에서 : 새로 시작한 밴드 / 추천페이지 영역을 구현할 수 있다. 라벨을 없애고 이미지로만 화면을 구성한다면 이미지 Carousel 이 가능할 것으로 생각된다.
