@@ -125,3 +125,9 @@ extension CustomMenuBar: UICollectionViewDelegateFlowLayout {
 <img src="../markdown_image/appjam-9.gif" alt="4-1" style="zoom:50%;" align = "left"/>
 
 참고링크: https://github.com/protocorn93/tistory-ios/tree/master/CustomTabBar
+
+[https](https://iosexample.com/material-design-pagertabstrip-for-ios/)[://iosexample.com/material-design-pagertabstrip-for-ios](https://iosexample.com/material-design-pagertabstrip-for-ios/)[/](https://iosexample.com/material-design-pagertabstrip-for-ios/)
+
+[https://baked-corn.tistory.com/](https://baked-corn.tistory.com/111)[111](https://baked-corn.tistory.com/111)
+
+https://baked-corn.tistory.com/113
