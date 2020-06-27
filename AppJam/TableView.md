@@ -14,3 +14,5 @@
 12. 테이블뷰(생성IBOUTLET) : .datasource = self ,  .delegate = self
 13. TableViewCell로 만든 파일에서 SetDateInformation 작성
 14. ViewController(main)에서 Section 별 Row 개수 등 필요한 부분 지정 
+
+관련 구현 링크 : https://github.com/26th-SOPT-iOS/KimHyunKi/tree/master/Week3  / 3주차 과제, 도전과제 
